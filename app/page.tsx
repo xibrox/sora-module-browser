@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 type FileType = 'js' | 'json' | 'png' | 'jpg' | 'webp';
 
@@ -379,11 +380,13 @@ function ProjectSection({ title, projects, basePath }: {
               {/* Project icon container with fallback */}
               <div className="w-12 h-12 rounded mr-3 overflow-hidden flex items-center justify-center bg-gray-700 border border-gray-600 relative">
                 {/* Project icon - hidden if fails to load */}
-                <img 
+                <Image 
                   src={`${basePath}/${project.name}/icon.png`}
                   onError={(e) => handleImageError(e, project.name)}
                   alt={`${project.name} icon`}
                   className="w-full h-full object-cover"
+                  width={48}
+                  height={48}
                 />
                 {/* Fallback icon - shown only if image fails */}
                 <svg 
