@@ -255,8 +255,8 @@ export default function FileExplorer() {
         <header className="mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
-              <h1 className="text-2xl font-light tracking-wide">File Explorer</h1>
-              <p className="text-sm text-gray-500 mt-1">Browse project files</p>
+              <h1 className="text-2xl font-light tracking-wide">IBRO Modules</h1>
+              <p className="text-sm text-gray-500 mt-1">Browse module files</p>
             </div>
             
             <div className="relative">
@@ -267,7 +267,7 @@ export default function FileExplorer() {
               </div>
               <input
                 type="text"
-                placeholder="Search projects..."
+                placeholder="Search modules..."
                 className="w-full pl-10 pr-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:ring-1 focus:ring-gray-600"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -298,13 +298,13 @@ export default function FileExplorer() {
           </div>
         </header>
         
-        {/* Projects */}
+        {/* Modules */}
         <div className="space-y-8">
           {(filteredStreams.length > 0 || filteredNovels.length > 0) ? (
             <>
               {filteredStreams.length > 0 && (
                 <ProjectSection 
-                  title="Stream Projects" 
+                  title="Stream Modules" 
                   projects={filteredStreams} 
                   basePath="/streams" 
                 />
@@ -312,7 +312,7 @@ export default function FileExplorer() {
               
               {filteredNovels.length > 0 && (
                 <ProjectSection 
-                  title="Novel Projects" 
+                  title="Novel Modules" 
                   projects={filteredNovels} 
                   basePath="/novels" 
                 />
@@ -323,7 +323,7 @@ export default function FileExplorer() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-gray-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <h3 className="text-lg font-medium text-gray-400">No projects found</h3>
+              <h3 className="text-lg font-medium text-gray-400">No modules found</h3>
               <p className="text-sm text-gray-600 mt-1">
                 Try adjusting your search or filter
               </p>
