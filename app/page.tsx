@@ -51,179 +51,7 @@ export default function FileExplorer() {
         { name: 'bingeflex', type: 'json' },
         { name: 'icon', type: 'png' },
       ]
-    },
-    {
-      name: 'cinepulse',
-      files: [
-        { name: 'cinepulse', type: 'js' },
-        { name: 'cinepulse', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'flickystream',
-      files: [
-        { name: 'flickystream', type: 'js' },
-        { name: 'flickystream', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'franime',
-      files: [
-        { name: 'franime', type: 'js' },
-        { name: 'franime', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'frembed',
-      files: [
-        { name: 'frembed', type: 'js' },
-        { name: 'frembed', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'kdramahood',
-      files: [
-        { name: 'kdramahood', type: 'js' },
-        { name: 'kdramahood', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'lycoriscafe',
-      files: [
-        { name: 'lycoriscafe', type: 'js' },
-        { name: 'lycoriscafe', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'mokmobi',
-      files: [
-        { name: 'mokmobi', type: 'js' },
-        { name: 'mokmobi', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'mzone',
-      files: [
-        { name: 'mzone', type: 'js' },
-        { name: 'mzone', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'net3lix',
-      files: [
-        { name: 'net3lix', type: 'js' },
-        { name: 'net3lix', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'onepace',
-      files: [
-        { name: 'onepace', type: 'js' },
-        { name: 'onepace', type: 'json' },
-        { name: 'onepaceEs', type: 'js' },
-        { name: 'onepaceEs', type: 'json' },
-        { name: 'onepaceFr', type: 'js' },
-        { name: 'onepaceFr', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'ramaorientalfansub',
-      files: [
-        { name: 'ramaorientalfansub', type: 'js' },
-        { name: 'ramaorientalfansub', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'ristoanime',
-      files: [
-        { name: 'ristoanime', type: 'js' },
-        { name: 'ristoanime', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'rive',
-      files: [
-        { name: 'rive', type: 'js' },
-        { name: 'rive', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'streamcloud',
-      files: [
-        { name: 'streamcloud', type: 'js' },
-        { name: 'streamcloud', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'sudatchi',
-      files: [
-        { name: 'sudatchi', type: 'js' },
-        { name: 'sudatchi', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'toonanime',
-      files: [
-        { name: 'toonanime', type: 'js' },
-        { name: 'toonanime', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'uaserial',
-      files: [
-        { name: 'uaserial', type: 'js' },
-        { name: 'uaserial', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'vidapi',
-      files: [
-        { name: 'vidapi', type: 'js' },
-        { name: 'vidapi', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'vixsrc',
-      files: [
-        { name: 'vixsrc', type: 'js' },
-        { name: 'vixsrc', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'wtflix',
-      files: [
-        { name: 'wtflix', type: 'js' },
-        { name: 'wtflix', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
-    {
-      name: 'yummy-anime',
-      files: [
-        { name: 'yummy-anime', type: 'js' },
-        { name: 'yummy-anime', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    },
+    }
   ];
 
   const novelProjects: ProjectItem[] = [
@@ -232,6 +60,14 @@ export default function FileExplorer() {
       files: [
         { name: 'novelfire', type: 'js' },
         { name: 'novelfire', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'storyverse',
+      files: [
+        { name: 'storyverse', type: 'js' },
+        { name: 'storyverse', type: 'json' },
         { name: 'icon', type: 'png' },
       ]
     }
@@ -255,8 +91,8 @@ export default function FileExplorer() {
         <header className="mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
-              <h1 className="text-2xl font-light tracking-wide">Sora Modules</h1>
-              <p className="text-sm text-gray-500 mt-1">Browse module files</p>
+              <h1 className="text-2xl font-light tracking-wide">File Explorer</h1>
+              <p className="text-sm text-gray-500 mt-1">Browse project files</p>
             </div>
             
             <div className="relative">
@@ -267,7 +103,7 @@ export default function FileExplorer() {
               </div>
               <input
                 type="text"
-                placeholder="Search modules..."
+                placeholder="Search projects..."
                 className="w-full pl-10 pr-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:ring-1 focus:ring-gray-600"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -304,7 +140,7 @@ export default function FileExplorer() {
             <>
               {filteredStreams.length > 0 && (
                 <ProjectSection 
-                  title="Stream Modules" 
+                  title="Stream Projects" 
                   projects={filteredStreams} 
                   basePath="/streams" 
                 />
@@ -312,7 +148,7 @@ export default function FileExplorer() {
               
               {filteredNovels.length > 0 && (
                 <ProjectSection 
-                  title="Novel Modules" 
+                  title="Novel Projects" 
                   projects={filteredNovels} 
                   basePath="/novels" 
                 />
@@ -347,7 +183,8 @@ function ProjectSection({ title, projects, basePath }: {
     // If we tried PNG and failed, try JPG
     if (target.src.endsWith('.png')) {
       target.src = `${basePath}/${projectName}/icon.jpg`;
-      target.onerror = (event) => {
+      // FIX: Removed unused 'event' parameter
+      target.onerror = () => {
         // If JPG also fails, show fallback
         const fallbackElement = target.nextElementSibling as HTMLElement;
         if (fallbackElement) {
@@ -379,7 +216,7 @@ function ProjectSection({ title, projects, basePath }: {
             <div className="flex items-start mb-3">
               {/* Project icon container with fallback */}
               <div className="w-12 h-12 rounded mr-3 overflow-hidden flex items-center justify-center bg-gray-700 border border-gray-600 relative">
-                {/* Project icon - hidden if fails to load */}
+                {/* Use next/image for optimized images */}
                 <Image 
                   src={`${basePath}/${project.name}/icon.png`}
                   onError={(e) => handleImageError(e, project.name)}
@@ -410,7 +247,6 @@ function ProjectSection({ title, projects, basePath }: {
             <div className="flex flex-wrap gap-2">
               {project.files.map(file => (
                 <a 
-                  // FIX: Include file type in key to make it unique
                   key={`${project.name}-${file.name}-${file.type}`}
                   href={`${basePath}/${project.name}/${file.name}.${file.type}`}
                   className="text-xs bg-gray-900 border border-gray-800 rounded px-2.5 py-1.5 hover:bg-gray-800 transition"
