@@ -51,7 +51,179 @@ export default function FileExplorer() {
         { name: 'bingeflex', type: 'json' },
         { name: 'icon', type: 'png' },
       ]
-    }
+    },
+    {
+      name: 'cinepulse',
+      files: [
+        { name: 'cinepulse', type: 'js' },
+        { name: 'cinepulse', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'flickystream',
+      files: [
+        { name: 'flickystream', type: 'js' },
+        { name: 'flickystream', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'franime',
+      files: [
+        { name: 'franime', type: 'js' },
+        { name: 'franime', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'frembed',
+      files: [
+        { name: 'frembed', type: 'js' },
+        { name: 'frembed', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'kdramahood',
+      files: [
+        { name: 'kdramahood', type: 'js' },
+        { name: 'kdramahood', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'lycoriscafe',
+      files: [
+        { name: 'lycoriscafe', type: 'js' },
+        { name: 'lycoriscafe', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'mokmobi',
+      files: [
+        { name: 'mokmobi', type: 'js' },
+        { name: 'mokmobi', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'mzone',
+      files: [
+        { name: 'mzone', type: 'js' },
+        { name: 'mzone', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'net3lix',
+      files: [
+        { name: 'net3lix', type: 'js' },
+        { name: 'net3lix', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'onepace',
+      files: [
+        { name: 'onepace', type: 'js' },
+        { name: 'onepace', type: 'json' },
+        { name: 'onepaceEs', type: 'js' },
+        { name: 'onepaceEs', type: 'json' },
+        { name: 'onepaceFr', type: 'js' },
+        { name: 'onepaceFr', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'ramaorientalfansub',
+      files: [
+        { name: 'ramaorientalfansub', type: 'js' },
+        { name: 'ramaorientalfansub', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'ristoanime',
+      files: [
+        { name: 'ristoanime', type: 'js' },
+        { name: 'ristoanime', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'rive',
+      files: [
+        { name: 'rive', type: 'js' },
+        { name: 'rive', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'streamcloud',
+      files: [
+        { name: 'streamcloud', type: 'js' },
+        { name: 'streamcloud', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'sudatchi',
+      files: [
+        { name: 'sudatchi', type: 'js' },
+        { name: 'sudatchi', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'toonanime',
+      files: [
+        { name: 'toonanime', type: 'js' },
+        { name: 'toonanime', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'uaserial',
+      files: [
+        { name: 'uaserial', type: 'js' },
+        { name: 'uaserial', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'vidapi',
+      files: [
+        { name: 'vidapi', type: 'js' },
+        { name: 'vidapi', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'vixsrc',
+      files: [
+        { name: 'vixsrc', type: 'js' },
+        { name: 'vixsrc', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'wtflix',
+      files: [
+        { name: 'wtflix', type: 'js' },
+        { name: 'wtflix', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
+      name: 'yummy-anime',
+      files: [
+        { name: 'yummy-anime', type: 'js' },
+        { name: 'yummy-anime', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
   ];
 
   const novelProjects: ProjectItem[] = [
@@ -63,14 +235,6 @@ export default function FileExplorer() {
         { name: 'icon', type: 'png' },
       ]
     },
-    {
-      name: 'storyverse',
-      files: [
-        { name: 'storyverse', type: 'js' },
-        { name: 'storyverse', type: 'json' },
-        { name: 'icon', type: 'png' },
-      ]
-    }
   ];
 
   // Filter projects based on search and active tab
