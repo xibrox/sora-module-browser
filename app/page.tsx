@@ -117,7 +117,7 @@ export default function FileExplorer() {
       ]
     },
     {
-      name: 'Narucannon Subbed',
+      name: 'narucannon',
       files: [
         { name: 'narucannon', type: 'js' },
         { name: 'narucannon', type: 'json' },
