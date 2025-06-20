@@ -1,12 +1,14 @@
 async function searchResults(keyword) {
-    const transformedResults = {
-        title: data.title,
-        image: "",
-        href: `https://pixeldrain.net/l/dX3cF5Q3`
-    };
+    const results = [];
+
+    results.push({
+        title: "Narucannon Subbed",
+        image: "https://lib.ibrachim.cz/streams/narucannon/icon.png",
+        href: "https://pixeldrain.net/l/dX3cF5Q3"
+    });
     
-    console.log(`Results: ${JSON.stringify(transformedResults)}`);
-    return JSON.stringify(transformedResults);
+    console.log(`Results: ${JSON.stringify(results)}`);
+    return JSON.stringify(results);
 }
 
 async function extractDetails(url) {
