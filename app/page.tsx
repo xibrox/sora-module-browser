@@ -117,6 +117,14 @@ export default function FileExplorer() {
       ]
     },
     {
+      name: 'Narucannon Subbed',
+      files: [
+        { name: 'narucannon', type: 'js' },
+        { name: 'narucannon', type: 'json' },
+        { name: 'icon', type: 'png' },
+      ]
+    },
+    {
       name: 'net3lix',
       files: [
         { name: 'net3lix', type: 'js' },
