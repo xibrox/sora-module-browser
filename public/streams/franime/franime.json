@@ -1,9 +1,9 @@
 {
     "sourceName": "FRAnime",
-    "iconUrl": "https://raw.githubusercontent.com/xibrox/sora-movie-module/refs/heads/main/franime/icon.png",
+    "iconUrl": "https://lib.ibrachim.cz/streams/franime/icon.png",
     "author": {
         "name": "ibro",
-        "icon": "https://raw.githubusercontent.com/xibrox/sora-movie-module/refs/heads/main/profile.jpg",
+        "icon": "https://lib.ibrachim.cz/profile.jpg",
         "url": "https://github.com/xibrox"
     },
     "version": "1.0.6",
@@ -12,7 +12,7 @@
     "quality": "1080p",
     "baseUrl": "https://video.sibnet.ru/",
     "searchBaseUrl": "https://franime.to/?s=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/xibrox/sora-movie-module/refs/heads/main/franime/franime.js",
+    "scriptUrl": "https://lib.ibrachim.cz/streams/franime/franime.js",
     "type": "anime",
     "asyncJS": true
 }
